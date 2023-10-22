@@ -613,14 +613,17 @@ footer {
 }
 
 .footer-sub-name {
+  min-width: 165px;
+  height: 40px;
   display: flex;
   align-items: center;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #fff;
+  letter-spacing: 0.04em;
+  color: #ffffff;
   margin-bottom: 16px;
+  cursor: pointer;
 }
 
 .sub-form {
@@ -661,6 +664,10 @@ footer {
   gap: 16px;
   border-radius: 4px;
   background: #4d5ae5;
+}
+
+.sub-btn-img {
+  margin-left: 16px;
 }
 
 /**=================================================================**/
@@ -781,7 +788,7 @@ footer {
   pointer-events: auto;
 }
 .check-text {
-  color: var(--LIGHT-SLATE, #8e8f99);
+  color: var#8e8f99;
   /* Small Text */
   font-size: 12px;
   font-style: normal;
