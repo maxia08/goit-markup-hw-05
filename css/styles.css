@@ -624,6 +624,8 @@ footer {
 }
 
 .sub-form {
+  display: flex;
+  gap: 24px;
   margin-top: 16px;
 }
 
