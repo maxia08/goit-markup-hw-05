@@ -838,11 +838,10 @@ footer {
   pointer-events: auto;
 }
 .check-text {
+  color: #8e8f99;
   font-size: 12px;
-  font-style: normal;
-  line-height: 1.17; /* 116.667% */
+  line-height: 1.17;
   letter-spacing: 0.04em;
-  color: var#8e8f99;
 }
 
 .check-text a {
