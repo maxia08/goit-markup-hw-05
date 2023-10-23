@@ -819,7 +819,8 @@ footer {
   color: #000000;
 }
 
-.modal-input:hover + .modal-icon .modal-input:focus + .modal-icon {
+.modal-input:hover + .modal-icon,
+.modal-input:focus + .modal-icon {
   fill: #4d5ae5;
 }
 
@@ -905,6 +906,7 @@ footer {
 
 .backdrop-sup-btn {
   display: block;
+  justify-content: center;
   min-width: 169px;
   height: 56px;
   font-weight: 500;
