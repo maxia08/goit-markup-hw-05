@@ -847,6 +847,15 @@ footer {
   border-color: #4d5ae5;
 }
 
+.modal-field-cbox {
+  margin-bottom: 24px;
+}
+
+.check-input:checked + .check-text span {
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
+}
 .is-open {
   opacity: 1;
   visibility: visible;
